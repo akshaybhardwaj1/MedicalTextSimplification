@@ -44,15 +44,15 @@ button.simplify {
 }
 
 button.statistics {
-	left: 100px;
+	left: 200px;
 }
 
 button.clear {
-	left: 100px;
+	left: 300px;
 }
 
 button.test {
-	left: 100px;
+	left: 400px;
 }
 
 button.disabled {
