@@ -137,7 +137,7 @@ function simplify() {
 
 function displayTestData() {
     reset();
-    document.getElementsById("infoBox").innerHTML = "Test Button Clicked";
+    document.getElementById("infoBox").innerHTML = "Test Button Clicked";  
 }
 
 
@@ -379,6 +379,11 @@ function addListeners() {
 	document.getElementById("simplifyBtn").addEventListener("click", function(e){
 		simplify();
 	});
+        
+        document.getElementById("testBtn").addEventListener("click", function(e){
+		displayTestData();
+	});
+        
 	document.getElementById("statsBtn").addEventListener("click", function(e){
 		getStatistics("revised", getInputText()).catch(function(err){
 			console.log("Error: " + err);
@@ -391,9 +396,6 @@ function addListeners() {
 		});
 	})
         
-        document.getElementById("testBtn").addEventListener("click", function(e){
-		displayTestData();
-	});
 	
 	// delete any existing dropdown on window resize
 	window.addEventListener("resize", deleteExistingDropdown);
