@@ -30,7 +30,7 @@ button {
         display: inline-block;
         padding: 10px;
 	top:540px;
-	width: 90px;
+	width: 100px;
 	border-radius: 12px;
 	outline:none;
 	font-size: 32;
@@ -44,15 +44,15 @@ button.simplify {
 }
 
 button.statistics {
-	left: 105px;
+	left: 100px;
 }
 
 button.clear {
-	left: 200px;
+	left: 100px;
 }
 
 button.test {
-	left: 200px;
+	left: 100px;
 }
 
 button.disabled {
