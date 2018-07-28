@@ -26,7 +26,7 @@ h1 {
 }
 
 button {
-	/*position: absolute;*/
+	position: absolute;
         padding: 10px;
 	top:540px;
 	width: 90px;
