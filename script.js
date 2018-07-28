@@ -135,6 +135,9 @@ function simplify() {
 	}
 }
 
+/**
+ * Displays test data - "Test Button Clicked"
+ */
 function displayTestData() {
     reset();
     document.getElementById("infoBox").innerHTML = "Test Button Clicked";  
@@ -379,7 +382,7 @@ function addListeners() {
 	document.getElementById("simplifyBtn").addEventListener("click", function(e){
 		simplify();
 	});
-        
+        // call displayTestData when Test button is clicked
         document.getElementById("testBtn").addEventListener("click", function(e){
 		displayTestData();
 	});
