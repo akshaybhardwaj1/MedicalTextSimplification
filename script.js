@@ -134,6 +134,14 @@ function simplify() {
 		})
 	}
 }
+
+function displayTestData() {
+    
+	document.getElementsById("infoBox").innerHTML = "Test Button Clicked";
+}
+
+
+
 /**
  * Gets simplification data from server, highlights complex words and stores simplifications
  */
@@ -382,6 +390,10 @@ function addListeners() {
 			document.getElementsByClassName("result")[0].innerHTML = "";
 		});
 	})
+        
+        document.getElementById("testBtn").addEventListener("click", function(e){
+		displayTestData();
+	});
 	
 	// delete any existing dropdown on window resize
 	window.addEventListener("resize", deleteExistingDropdown);
