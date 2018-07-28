@@ -27,6 +27,7 @@ h1 {
 
 button {
 	position: absolute;
+        padding: 10px;
 	top:540px;
 	width: 90px;
 	border-radius: 12px;
@@ -46,6 +47,10 @@ button.statistics {
 }
 
 button.clear {
+	left: 200px;
+}
+
+button.test {
 	left: 200px;
 }
 
