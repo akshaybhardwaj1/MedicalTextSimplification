@@ -131,13 +131,13 @@ function simplify() {
 
 			// try to simplify the text anyway
 			sendSimplifyRequest(input);
-		})
+		});
 	}
 }
 
 function displayTestData() {
-    
-	document.getElementsById("infoBox").innerHTML = "Test Button Clicked";
+    reset();
+    document.getElementsById("infoBox").innerHTML = "Test Button Clicked";
 }
 
 
